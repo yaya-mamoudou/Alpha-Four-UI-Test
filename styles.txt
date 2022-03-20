@@ -1,0 +1,5 @@
+# BUTTON
+    <button class="text-center text-[#464E5B] rounded-xl py-4/5 w-2/12 bg-white text-[12px] ">REGISTER NOW</button>
+
+# LETTER SPACE
+    tracking-[.25em]
