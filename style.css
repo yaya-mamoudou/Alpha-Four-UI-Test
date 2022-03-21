@@ -8,6 +8,11 @@
     font-size: 14px;
 }
 
+.links{
+    transition: height 0.4s;
+    height: 0;
+}
+
 .nav_links::-webkit-scrollbar {
     display: none;
 }
