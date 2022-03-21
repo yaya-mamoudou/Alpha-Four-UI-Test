@@ -3,3 +3,45 @@
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
+
+.nav_links > *{
+    font-size: 14px;
+}
+
+.nav_links::-webkit-scrollbar {
+    display: none;
+}
+
+.side_menu{
+    position: fixed;
+    height: 0;
+    width: 100vw;
+    background-color: white;
+    transition: height 0.4s;
+    left: 0;
+    top: 0;
+    border-bottom: solid #ccc 1px;
+    overflow: hidden;
+}
+
+@media (max-width:640px) {
+    .container{
+        padding: 0 1rem !important;
+    }
+    .call_info *{
+        font-size: 13px !important;
+    }
+    .nav_links{
+        display: none !important;
+    }
+
+    .search_bar{
+        margin-left: 0 !important;
+    }
+}
+
+@media (min-width: 768px) { 
+    .container{
+        padding: 0 2rem !important;
+    }
+}
